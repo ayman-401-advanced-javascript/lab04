@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose --coverage",
+    "lint": "eslint '**/*.js'",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/ayman-401-advanced-javascript/lab04/issues"
   },
-  "homepage": "https://github.com/ayman-401-advanced-javascript/lab04#readme"
+  "homepage": "https://github.com/ayman-401-advanced-javascript/lab04#readme",
+  "dependencies": {
+    "eslint": "^6.8.0",
+    "jest": "^25.1.0",
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {}
 }

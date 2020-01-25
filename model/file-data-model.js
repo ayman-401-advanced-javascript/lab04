@@ -1,14 +1,13 @@
 'use strict';
 
 const uuid = require('uuid/v4');
-const { Validator } = require('./lib/validator.js');
 
+const fs = require('fs');
 
-class Model {
+class FileDataModel {
 
-  constructor(schema) {
+  constructor() {
     this.database = [];
-    this.validator = new Validator(schema);
   }
 
   get(id) {
@@ -34,4 +33,4 @@ class Model {
 
 }
 
-module.exports = Model;
+module.exports = FileDataModel;

@@ -2,13 +2,15 @@
 
 const DataModel = require('../memory-data-model.js');
 
+
 class Categories extends DataModel {
   constructor() {
-    super();
-    this.schema = {
-      id: { required: true },
-      name: { required: true },
-    };
+    super({
+      fields: {
+        id: { required: true },
+        name: { required: true },
+      },
+    });
   }
 }
 
