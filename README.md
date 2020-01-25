@@ -6,7 +6,7 @@
 
 ### Links and Resources
 
-- [submission PR](https://github.com/ayman-401-advanced-javascript/lab02/commit/cb61a5d01f8f9dfb972c8cdabd1fac080cb5a542/checks?check_suite_id=418829304) (GitHub Actions)
+- [submission PR](https://github.com/ayman-401-advanced-javascript/lab04/runs/408563128?check_suite_focus=true) (GitHub Actions)
 
 ### Setup
 npm i jest eslint uuid
